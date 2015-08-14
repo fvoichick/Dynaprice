@@ -32,8 +32,8 @@ items:
     value: -12
   Polished Andesite:
     bukkit-name: STONE
-    data: -12
-    value: 1
+    data: 6
+    value: -12
   Grass Block:
     bukkit-name: GRASS
     value: -5

@@ -198,6 +198,7 @@ public final class Transaction {
 					newValue = changeValue(newValue);
 				}
 				plugin.getConfig().set("items." + itemName + ".value", newValue);
+				plugin.saveConfig();
 			}
 
 			if (buy) {
@@ -208,7 +209,6 @@ public final class Transaction {
 				message = "You sold " + cost.getAmount() + ' ' + plugin.getShop().nameFromMaterial(cost.getData())
 						+ " for " + returns.getAmount() + ' ' + plugin.getShop().nameFromMaterial(returns.getData());
 			}
-			plugin.saveConfig();
 			player.sendMessage(message);
 			player.getInventory().removeItem(cost);
 			give(player, divideStack(returns));
