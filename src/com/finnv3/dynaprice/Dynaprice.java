@@ -10,8 +10,6 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.MetricsLite;
 
-import net.gravitydevelopment.updater.Updater;
-
 public final class Dynaprice extends JavaPlugin {
 
 	private Shop shop;
@@ -23,7 +21,7 @@ public final class Dynaprice extends JavaPlugin {
 			return;
 		}
 		if (getConfig().getBoolean("auto-update", true)) {
-			new Updater(this, id, getFile(), Updater.UpdateType.DEFAULT, false);
+			//new Updater(this, id, getFile(), Updater.UpdateType.DEFAULT, false);
 		}
 		try {
 			MetricsLite metrics = new MetricsLite(this);
@@ -90,5 +88,5 @@ public final class Dynaprice extends JavaPlugin {
 		return true;
 	}
 	
-	private static final int id = -1;
+	//private static final int id = -1;
 }
