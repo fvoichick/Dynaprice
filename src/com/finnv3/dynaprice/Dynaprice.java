@@ -5,11 +5,16 @@ import java.util.logging.Level;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.MetricsLite;
 
+import net.gravitydevelopment.updater.Updater;
+
 public final class Dynaprice extends JavaPlugin {
 
 	private Shop shop;
 	
 	public void onEnable() {
+		if (getConfig().getBoolean("auto-update", true)) {
+			new Updater(this, id, getFile(), Updater.UpdateType.DEFAULT, false);
+		}
 		try {
 			MetricsLite metrics = new MetricsLite(this);
 			metrics.start();
@@ -31,4 +36,5 @@ public final class Dynaprice extends JavaPlugin {
 		saveConfig();
 	}
 	
+	private static final int id = -1;
 }
