@@ -102,7 +102,7 @@ public final class Shop implements CommandExecutor {
 	@SuppressWarnings("deprecation")
 	public MaterialData getCurrency() {
 		Material currency = Material.valueOf(plugin.getConfig().getString("currency.bukkit-name"));
-		byte data = (byte) plugin.getConfig().getInt("currency.value");
+		byte data = (byte) plugin.getConfig().getInt("currency.data");
 		return new MaterialData(currency, data);
 	}
 

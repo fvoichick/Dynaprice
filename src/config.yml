@@ -3,7 +3,6 @@ buy-sell-difference: 1
 currency:
   name: Emerald
   bukkit-name: EMERALD
-  data: 1
 
 items:
   Stone:
