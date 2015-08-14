@@ -15,6 +15,7 @@ public final class Dynaprice extends JavaPlugin {
 	private Shop shop;
 
 	public void onEnable() {
+		saveDefaultConfig();
 		if (!validateConfig()) {
 			getLogger().info("Disabling Dynaprice v" + getDescription().getVersion());
 			setEnabled(false);
