@@ -1,0 +1,2046 @@
+buy-sell-difference: 1
+
+currency:
+  name: Emerald
+  bukkit-name: EMERALD
+  data: 1
+
+items:
+  Stone:
+    bukkit-name: STONE
+    value: -85
+  Granite:
+    bukkit-name: STONE
+    data: 1
+    value: -6
+  Polished Granite:
+    bukkit-name: STONE
+    data: 2
+    value: -6
+  Diorite:
+    bukkit-name: STONE
+    data: 3
+    value: -12
+  Polished Diorite:
+    bukkit-name: STONE
+    data: 4
+    value: -12
+  Andesite:
+    bukkit-name: STONE
+    data: 5
+    value: -12
+  Polished Andesite:
+    bukkit-name: STONE
+    data: -12
+    value: 1
+  Grass Block:
+    bukkit-name: GRASS
+    value: -5
+  Dirt:
+    bukkit-name: DIRT
+    value: -512
+  Coarse Dirt:
+    bukkit-name: DIRT
+    data: 1
+    value: -128
+  Podzol:
+    bukkit-name: DIRT
+    data: 2
+    value: 1
+  Cobblestone:
+    bukkit-name: COBBLESTONE
+    value: -256
+  Oak Wood Planks:
+    bukkit-name: WOOD
+    aliases:
+    - planks
+    - Wood Planks
+    value: -256
+  Spruce Wood Planks:
+    bukkit-name: WOOD
+    data: 1
+    aliases:
+    - planks:1
+    value: -256
+  Birch Wood Planks:
+    bukkit-name: WOOD
+    data: 2
+    aliases:
+    - planks:2
+    value: -256
+  Jungle Wood Planks:
+    bukkit-name: WOOD
+    data: 3
+    aliases:
+    - planks:3
+    value: -256
+  Acacia Wood Planks:
+    bukkit-name: WOOD
+    data: 4
+    aliases:
+    - planks:4
+    value: -256
+  Dark Oak Wood Planks:
+    bukkit-name: WOOD
+    data: 5
+    aliases:
+    - planks:5
+    value: -256
+  Oak Sapling:
+    bukkit-name: SAPLING
+    value: -51
+  Spruce Sapling:
+    bukkit-name: SAPLING
+    data: 1
+    value: -51
+  Birch Sapling:
+    bukkit-name: SAPLING
+    data: 2
+    value: -51
+  Jungle Sapling:
+    bukkit-name: SAPLING
+    data: 3
+    value: -51
+  Acacia Sapling:
+    bukkit-name: SAPLING
+    data: 4
+    value: -51
+  Dark Oak Sapling:
+    bukkit-name: SAPLING
+    data: 5
+    value: -51
+  Bedrock:
+    bukkit-name: BEDROCK
+    value: 39
+  Sand:
+    bukkit-name: SAND
+    value: -51
+  Red Sand:
+    bukkit-name: SAND
+    data: 1
+    value: -17
+  Gravel:
+    bukkit-name: GRAVEL
+    value: -512
+  Gold Ore:
+    bukkit-name: GOLD_ORE
+    value: -2
+  Iron Ore:
+    bukkit-name: IRON_ORE
+    value: -9
+  Coal Ore:
+    bukkit-name: COAL_ORE
+    value: -5
+  Oak Wood:
+    bukkit-name: LOG
+    aliases:
+    - Wood
+    value: -64
+  Spruce Wood:
+    bukkit-name: LOG
+    data: 1
+    value: -64
+  Birch Wood:
+    bukkit-name: LOG
+    data: 2
+    value: -64
+  Jungle Wood:
+    bukkit-name: LOG
+    data: 3
+    value: -64
+  Oak Leaves:
+    bukkit-name: LEAVES
+    value: -256
+  Spruce Leaves:
+    bukkit-name: LEAVES
+    data: 1
+    value: -256
+  Birch Leaves:
+    bukkit-name: LEAVES
+    data: 2
+    value: -256
+  Jungle Leaves:
+    bukkit-name: LEAVES
+    data: 3
+    value: -256
+  Sponge:
+    bukkit-name: SPONGE
+    value: 117
+  Wet Sponge:
+    bukkit-name: SPONGE
+    data: 1
+    value: 117
+  Glass:
+    bukkit-name: GLASS
+    value: -26
+  Lapis Lazuli Ore:
+    bukkit-name: LAPIS_ORE
+    value: 1
+  Lapis Lazuli Block:
+    bukkit-name: LAPIS_BLOCK
+    value: 1
+  Dispenser:
+    bukkit-name: DISPENSER
+    value: -13
+  Sandstone:
+    bukkit-name: SANDSTONE
+    value: -13
+  Chiseled Sandstone:
+    bukkit-name: SANDSTONE
+    data: 1
+    value: -12
+  Smooth Sandstone:
+    bukkit-name: SANDSTONE
+    data: 2
+    value: -12
+  Note Block:
+    bukkit-name: NOTE_BLOCK
+    value: -17
+  Powered Rail:
+    bukkit-name: POWERED_RAIL
+    aliases:
+    - golden_rail
+    value: -2
+  Detector Rail:
+    bukkit-name: DETECTOR_RAIL
+    value: -6
+  Sticky Piston:
+    bukkit-name: PISTON_STICKY_BASE
+    value: -3
+  Cobweb:
+    bukkit-name: WEB
+    value: 8
+  Grass:
+    bukkit-name: LONG_GRASS
+    data: 1
+    aliases:
+    - tallgrass
+    - tallgrass:1
+    value: -128
+  Fern:
+    bukkit-name: LONG_GRASS
+    data: 2
+    aliases:
+    - tallgrass:2
+    value: -85
+  Dead Bush:
+    bukkit-name: DEAD_BUSH
+    value: -256
+  Piston:
+    bukkit-name: PISTON_BASE
+    value: -5
+  Wool:
+    bukkit-name: WOOL
+    value: -51
+  Orange Wool:
+    bukkit-name: WOOL
+    data: 1
+    value: -26
+  Magenta Wool:
+    bukkit-name: WOOL
+    data: 2
+    value: -7
+  Light Blue Wool:
+    bukkit-name: WOOL
+    data: 3
+    value: -8
+  Yellow Wool:
+    bukkit-name: WOOL
+    data: 4
+    value: -17
+  Lime Wool:
+    bukkit-name: WOOL
+    data: 5
+    value: -26
+  Pink Wool:
+    bukkit-name: WOOL
+    data: 6
+    value: -21
+  Gray Wool:
+    bukkit-name: WOOL
+    data: 7
+    value: -17
+  Light Gray Wool:
+    bukkit-name: WOOL
+    data: 8
+    value: -16
+  Cyan Wool:
+    bukkit-name: WOOL
+    data: 9
+    value: -7
+  Purple Wool:
+    bukkit-name: WOOL
+    data: 10
+    value: -8
+  Blue Wool:
+    bukkit-name: WOOL
+    data: 11
+    value: -9
+  Brown Wool:
+    bukkit-name: WOOL
+    data: 12
+    value: -26
+  Green Wool:
+    bukkit-name: WOOL
+    data: 13
+    value: -26
+  Red Wool:
+    bukkit-name: WOOL
+    data: 14
+    value: -21
+  Black Wool:
+    bukkit-name: WOOL
+    data: 15
+    value: -26
+  Dandelion:
+    bukkit-name: YELLOW_FLOWER
+    value: -26
+  Poppy:
+    bukkit-name: RED_ROSE
+    aliases:
+    - red_flower
+    value: -26
+  Blue Orchid:
+    bukkit-name: RED_ROSE
+    data: 1
+    aliases:
+    - red_flower:1
+    value: -13
+  Allium:
+    bukkit-name: RED_ROSE
+    data: 2
+    aliases:
+    - red_flower:2
+    value: -4
+  Azure Bluet:
+    bukkit-name: RED_ROSE
+    data: 3
+    aliases:
+    - red_flower:3
+    value: -9
+  Red Tulip:
+    bukkit-name: RED_ROSE
+    data: 4
+    aliases:
+    - red_flower:4
+    value: -9
+  Orange Tulip:
+    bukkit-name: RED_ROSE
+    data: 5
+    aliases:
+    - red_flower:5
+    value: -9
+  White Tulip:
+    bukkit-name: RED_ROSE
+    data: 6
+    aliases:
+    - red_flower:6
+    value: -9
+  Pink Tulip:
+    bukkit-name: RED_ROSE
+    data: 7
+    aliases:
+    - red_flower:7
+    value: -26
+  Oxeye Daisy:
+    bukkit-name: RED_ROSE
+    data: 8
+    aliases:
+    - red_flower:8
+    value: -9
+  Brown Mushroom:
+    bukkit-name: BROWN_MUSHROOM
+    aliases:
+    - Mushroom
+    value: -256
+  Red Mushroom:
+    bukkit-name: RED_MUSHROOM
+    value: -256
+  Block of Gold:
+    bukkit-name: GOLD_BLOCK
+    value: 5
+  Block of Iron:
+    bukkit-name: IRON_BLOCK
+    value: 1
+  Stone Slab:
+    bukkit-name: STEP
+    value: -85
+  Sandstone Slab:
+    bukkit-name: STEP
+    data: 1
+    value: -26
+  Cobblestone Slab:
+    bukkit-name: STEP
+    data: 3
+    value: -256
+  Bricks Slab:
+    bukkit-name: STEP
+    data: 4
+    value: -15
+  Stone Brick Slab:
+    bukkit-name: STEP
+    data: 5
+    value: -77
+  Nether Brick Slab:
+    bukkit-name: STEP
+    data: 6
+    value: -26
+  Quartz Slab:
+    bukkit-name: STEP
+    data: 7
+    value: -6
+  Bricks:
+    bukkit-name: BRICK
+    aliases:
+    - brick_block
+    value: -5
+  TNT:
+    bukkit-name: TNT
+    value: 1
+  Bookshelf:
+    bukkit-name: BOOKSHELF
+    value: -5
+  Moss Stone:
+    bukkit-name: MOSSY_COBBLESTONE
+    value: 1
+  Obsidian:
+    bukkit-name: OBSIDIAN
+    value: -3
+  Torch:
+    bukkit-name: TORCH
+    value: -85
+  Oak Wood Stairs:
+    bukkit-name: WOOD_STAIRS
+    aliases:
+    - oak_stairs
+    value: -128
+  Chest:
+    bukkit-name: CHEST
+    value: -51
+  Diamond Ore:
+    bukkit-name: DIAMOND_ORE
+    value: 47
+  Block of Diamond:
+    bukkit-name: DIAMOND_BLOCK
+    value: 70
+  Crafting Table:
+    bukkit-name: WORKBENCH
+    value: -64
+  Furnace:
+    bukkit-name: FURNACE
+    value: -26
+  Ladder:
+    bukkit-name: LADDER
+    value: -102
+  Rail:
+    bukkit-name: RAILS
+    value: -18
+  Cobblestone Stairs:
+    bukkit-name: COBBLESTONE_STAIRS
+    aliases:
+    - stone_stairs
+    value: -171
+  Lever:
+    bukkit-name: LEVER
+    value: -128
+  Stone Pressure Plate:
+    bukkit-name: STONE_PLATE
+    value: -64
+  Wooden Pressure Plate:
+    bukkit-name: WOOD_PLATE
+    value: -171
+  Redstone Ore:
+    bukkit-name: REDSTONE_ORE
+    value: 1
+  Redstone Torch:
+    bukkit-name: REDSTONE_TORCH_ON
+    value: -32
+  Stone Button:
+    bukkit-name: STONE_BUTTON
+    value: -43
+  Snow Layer:
+    bukkit-name: SNOW
+    value: -51
+  Ice:
+    bukkit-name: ICE
+    value: 1
+  Snow:
+    bukkit-name: SNOW_BLOCK
+    value: -26
+  Cactus:
+    bukkit-name: CACTUS
+    value: -64
+  Clay:
+    bukkit-name: CLAY
+    value: -13
+  Jukebox:
+    bukkit-name: JUKEBOX
+    value: 8
+  Fence:
+    bukkit-name: FENCE
+    value: -128
+  Pumpkin:
+    bukkit-name: PUMPKIN
+    value: -13
+  Netherrack:
+    bukkit-name: NETHERRACK
+    value: -85
+  Soul Sand:
+    bukkit-name: SOUL_SAND
+    value: -13
+  Glowstone:
+    bukkit-name: GLOWSTONE
+    value: -4
+  Jack o'Lantern:
+    bukkit-name: JACK_O_LANTERN
+    aliases:
+    - lit_pumpkin
+    value: -10
+  White Stained Glass:
+    bukkit-name: STAINED_GLASS
+    value: -21
+  Orange Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 1
+    value: -21
+  Magenta Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 2
+    value: -21
+  Light Blue Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 3
+    value: -21
+  Yellow Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 4
+    value: -21
+  Lime Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 5
+    value: -21
+  Pink Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 6
+    value: -21
+  Gray Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 7
+    value: -21
+  Light Gray Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 8
+    value: -21
+  Cyan Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 9
+    value: -21
+  Purple Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 10
+    value: -21
+  Blue Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 11
+    value: -21
+  Brown Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 12
+    value: -21
+  Green Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 13
+    value: -21
+  Red Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 14
+    value: -21
+  Black Stained Glass:
+    bukkit-name: STAINED_GLASS
+    data: 15
+    value: -21
+  Trapdoor:
+    bukkit-name: TRAP_DOOR
+    value: -64
+  Stone Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    aliases:
+    - monster_egg
+    value: 4
+  Cobblestone Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    data: 1
+    aliases:
+    - monster_egg:1
+    value: 4
+  Stone Brick Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    data: 2
+    aliases:
+    - monster_egg:2
+    value: 4
+  Mossy Stone Brick Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    data: 3
+    aliases:
+    - monster_egg:3
+    value: 4
+  Cracked Stone Brick Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    data: 4
+    aliases:
+    - monster_egg:4
+    value: 4
+  Chiseled Stone Brick Monster Egg:
+    bukkit-name: MONSTER_EGGS
+    data: 5
+    aliases:
+    - monster_egg:5
+    value: 4
+  Stone Bricks:
+    bukkit-name: SMOOTH_BRICK
+    aliases:
+    - stonebrick
+    value: -43
+  Mossy Stone Bricks:
+    bukkit-name: SMOOTH_BRICK
+    data: 1
+    aliases:
+    - stonebrick:1
+    value: -2
+  Cracked Stone Bricks:
+    bukkit-name: SMOOTH_BRICK
+    data: 2
+    aliases:
+    - stonebrick:2
+    value: -2
+  Chiseled Stone Bricks:
+    bukkit-name: SMOOTH_BRICK
+    data: 3
+    aliases:
+    - stonebrick:3
+    value: -38
+  Brown Mushroom Block:
+    bukkit-name: HUGE_MUSHROOM_1
+    value: -51
+  Red Mushroom Block:
+    bukkit-name: HUGE_MUSHROOM_2
+    value: -51
+  Iron Bars:
+    bukkit-name: IRON_FENCE
+    value: -18
+  Glass Pane:
+    bukkit-name: THIN_GLASS
+    value: -85
+  Melon Block:
+    bukkit-name: MELON_BLOCK
+    value: -3
+  Vines:
+    bukkit-name: VINE
+    value: -128
+  Fence Gate:
+    bukkit-name: FENCE_GATE
+    value: -43
+  Brick Stairs:
+    bukkit-name: BRICK_STAIRS
+    value: -3
+  Stone Brick Stairs:
+    bukkit-name: SMOOTH_STAIRS
+    value: -26
+  Mycelium:
+    bukkit-name: MYCEL
+    value: 1
+  Lily Pad:
+    bukkit-name: WATER_LILY
+    value: -64
+  Nether Brick:
+    bukkit-name: NETHER_BRICK
+    value: -13
+  Nether Brick Fence:
+    bukkit-name: NETHER_FENCE
+    value: -13
+  Nether Brick Stairs:
+    bukkit-name: NETHER_BRICK_STAIRS
+    value: -9
+  Enchantment Table:
+    bukkit-name: ENCHANTMENT_TABLE
+    aliases:
+    - enchanting_table
+    value: 18
+  End Portal Frame:
+    bukkit-name: ENDER_PORTAL_FRAME
+    value: 20
+  End Stone:
+    bukkit-name: ENDER_STONE
+    value: -3
+  Dragon Egg:
+    bukkit-name: DRAGON_EGG
+    value: 27
+  Redstone Lamp:
+    bukkit-name: REDSTONE_LAMP_OFF
+    value: -3
+  Oak Wood Slab:
+    bukkit-name: WOOD_STEP
+    value: -256
+  Spruce Wood Slab:
+    bukkit-name: WOOD_STEP
+    data: 1
+    value: -256
+  Birch Wood Slab:
+    bukkit-name: WOOD_STEP
+    data: 2
+    value: -256
+  Jungle Wood Slab:
+    bukkit-name: WOOD_STEP
+    data: 3
+    value: -256
+  Acacia Wood Slab:
+    bukkit-name: WOOD_STEP
+    data: 4
+    value: -256
+  Dark Oak Wood Slab:
+    bukkit-name: WOOD_STEP
+    data: 5
+    value: -256
+  Sandstone Stairs:
+    bukkit-name: SANDSTONE_STAIRS
+    value: -13
+  Emerald Ore:
+    bukkit-name: EMERALD_ORE
+    value: 31
+  Ender Chest:
+    bukkit-name: ENDER_CHEST
+    value: 7
+  Tripwire Hook:
+    bukkit-name: TRIPWIRE_HOOK
+    value: -15
+  Block of Emerald:
+    bukkit-name: EMERALD_BLOCK
+    static: true
+    value: 9
+  Spruce Wood Stairs:
+    bukkit-name: SPRUCE_WOOD_STAIRS
+    aliases:
+    - spruce_stairs
+    value: -256
+  Birch Wood Stairs:
+    bukkit-name: BIRCH_WOOD_STAIRS
+    aliases:
+    - birch_stairs
+    value: -256
+  Jungle Wood Stairs:
+    bukkit-name: JUNGLE_WOOD_STAIRS
+    aliases:
+    - jungle_stairs
+    value: -256
+  Beacon:
+    bukkit-name: BEACON
+    value: 285
+  Cobblestone Wall:
+    bukkit-name: COBBLE_WALL
+    value: -256
+  Mossy Cobblestone Wall:
+    bukkit-name: COBBLE_WALL
+    data: 1
+    value: 1
+  Wooden Button:
+    bukkit-name: WOOD_BUTTON
+    value: -256
+  Anvil:
+    bukkit-name: ANVIL
+    value: 4
+  Slightly Damaged Anvil:
+    bukkit-name: ANVIL
+    data: 1
+    value: 1
+  Very Damaged Anvil:
+    bukkit-name: ANVIL
+    data: 2
+    value: 1
+  Trapped Chest:
+    bukkit-name: TRAPPED_CHEST
+    value: -12
+  Weighted Pressure Plate (Light):
+    bukkit-name: GOLD_PLATE
+    aliases:
+    - light_weighted_pressure_plate
+    value: 1
+  Weighted Pressure Plate (Heavy):
+    bukkit-name: IRON_PLATE
+    aliases:
+    - heavy_weighted_pressure_plate
+    value: -4
+  Daylight Sensor:
+    bukkit-name: DAYLIGHT_DETECTOR
+    aliases:
+    - daylight_detector
+    value: -5
+  Block of Redstone:
+    bukkit-name: REDSTONE_BLOCK
+    value: -4
+  Nether Quartz Ore:
+    bukkit-name: QUARTZ_ORE
+    value: 1
+  Hopper:
+    bukkit-name: HOPPER
+    value: -2
+  Block of Quartz:
+    bukkit-name: QUARTZ_BLOCK
+    value: -3
+  Chiseled Quartz Block:
+    bukkit-name: QUARTZ_BLOCK
+    data: 1
+    value: -3
+  Pillar Quartz Block:
+    bukkit-name: QUARTZ_BLOCK
+    data: 2
+    value: -2
+  Quartz Stairs:
+    bukkit-name: QUARTZ_STAIRS
+    value: -2
+  Activator Rail:
+    bukkit-name: ACTIVATOR_RAIL
+    value: -6
+  Dropper:
+    bukkit-name: DROPPER
+    value: -18
+  White Stained Clay:
+    bukkit-name: STAINED_CLAY
+    aliases:
+    - stained_hardened_clay
+    value: -12
+  Orange Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 1
+    aliases:
+    - stained_hardened_clay:1
+    value: -12
+  Magenta Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 2
+    aliases:
+    - stained_hardened_clay:2
+    value: -9
+  Light Blue Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 3
+    aliases:
+    - stained_hardened_clay:3
+    value: -9
+  Yellow Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 4
+    aliases:
+    - stained_hardened_clay:4
+    value: -12
+  Lime Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 5
+    aliases:
+    - stained_hardened_clay:5
+    value: -12
+  Pink Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 6
+    aliases:
+    - stained_hardened_clay:6
+    value: -12
+  Gray Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 7
+    aliases:
+    - stained_hardened_clay:7
+    value: -12
+  Light Gray Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 8
+    aliases:
+    - stained_hardened_clay:8
+    value: -11
+  Cyan Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 9
+    aliases:
+    - stained_hardened_clay:9
+    value: -9
+  Purple Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 10
+    aliases:
+    - stained_hardened_clay:10
+    value: -9
+  Blue Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 11
+    aliases:
+    - stained_hardened_clay:11
+    value: -11
+  Brown Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 12
+    aliases:
+    - stained_hardened_clay:12
+    value: -12
+  Green Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 13
+    aliases:
+    - stained_hardened_clay:13
+    value: -12
+  Red Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 14
+    aliases:
+    - stained_hardened_clay:14
+    value: -12
+  Black Stained Clay:
+    bukkit-name: STAINED_CLAY
+    data: 15
+    aliases:
+    - stained_hardened_clay:15
+    value: -12
+  White Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    value: -64
+  Orange Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 1
+    value: -64
+  Magenta Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 2
+    value: -64
+  Light Blue Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 3
+    value: -64
+  Yellow Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 4
+    value: -64
+  Lime Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 5
+    value: -64
+  Pink Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 6
+    value: -64
+  Gray Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 7
+    value: -64
+  Light Gray Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 8
+    value: -64
+  Cyan Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 9
+    value: -64
+  Purple Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 10
+    value: -64
+  Blue Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 11
+    value: -64
+  Brown Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 12
+    value: -64
+  Green Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 13
+    value: -64
+  Red Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 14
+    value: -64
+  Black Stained Glass Pane:
+    bukkit-name: STAINED_GLASS_PANE
+    data: 15
+    value: -64
+  Acacia Leaves:
+    bukkit-name: LEAVES_2
+    value: -256
+  Dark Oak Leaves:
+    bukkit-name: LEAVES_2
+    data: 1
+    value: -256
+  Acacia Wood:
+    bukkit-name: LOG_2
+    value: -64
+  Dark Oak Wood:
+    bukkit-name: LOG_2
+    data: 1
+    value: -64
+  Acacia Wood Stairs:
+    bukkit-name: ACACIA_STAIRS
+    value: -26
+  Dark Oak Wood Stairs:
+    bukkit-name: DARK_OAK_STAIRS
+    value: -26
+  Slime Block:
+    bukkit-name: SLIME_BLOCK
+    value: 2
+  Iron Trapdoor:
+    bukkit-name: IRON_TRAPDOOR
+    value: -2
+  Prismarine:
+    bukkit-name: PRISMARINE
+    value: 4
+  Prismarine Bricks:
+    bukkit-name: PRISMARINE
+    data: 1
+    value: 9
+  Dark Prismarine:
+    bukkit-name: PRISMARINE
+    data: 2
+    value: 8
+  Sea Lantern:
+    bukkit-name: SEA_LANTERN
+    value: 20
+  Hay Bale:
+    bukkit-name: HAY_BLOCK
+    value: -6
+  White Carpet:
+    bukkit-name: CARPET
+    value: -77
+  Orange Carpet:
+    bukkit-name: CARPET
+    data: 1
+    value: -38
+  Magenta Carpet:
+    bukkit-name: CARPET
+    data: 2
+    value: -10
+  Light Blue Carpet:
+    bukkit-name: CARPET
+    data: 3
+    value: -12
+  Yellow Carpet:
+    bukkit-name: CARPET
+    data: 4
+    value: -26
+  Lime Carpet:
+    bukkit-name: CARPET
+    data: 5
+    value: -38
+  Pink Carpet:
+    bukkit-name: CARPET
+    data: 6
+    value: -32
+  Gray Carpet:
+    bukkit-name: CARPET
+    data: 7
+    value: -26
+  Light Gray Carpet:
+    bukkit-name: CARPET
+    data: 8
+    value: -24
+  Cyan Carpet:
+    bukkit-name: CARPET
+    data: 9
+    value: -10
+  Purple Carpet:
+    bukkit-name: CARPET
+    data: 10
+    value: -12
+  Blue Carpet:
+    bukkit-name: CARPET
+    data: 11
+    value: -13
+  Brown Carpet:
+    bukkit-name: CARPET
+    data: 12
+    value: -38
+  Green Carpet:
+    bukkit-name: CARPET
+    data: 13
+    value: -38
+  Red Carpet:
+    bukkit-name: CARPET
+    data: 14
+    value: -32
+  Black Carpet:
+    bukkit-name: CARPET
+    data: 15
+    value: -38
+  Hardened Clay:
+    bukkit-name: HARD_CLAY
+    value: -11
+  Block of Coal:
+    bukkit-name: COAL_BLOCK
+    value: -4
+  Packed Ice:
+    bukkit-name: PACKED_ICE
+    value: 3
+  Sunflower:
+    bukkit-name: DOUBLE_PLANT
+    value: -5
+  Lilac:
+    bukkit-name: DOUBLE_PLANT
+    data: 1
+    value: -6
+  Double Tallgrass:
+    bukkit-name: DOUBLE_PLANT
+    data: 2
+    value: -64
+  Large Fern:
+    bukkit-name: DOUBLE_PLANT
+    data: 3
+    value: -43
+  Rose Bush:
+    bukkit-name: DOUBLE_PLANT
+    data: 4
+    value: -6
+  Peony:
+    bukkit-name: DOUBLE_PLANT
+    data: 5
+    value: -6
+  Red Sandstone:
+    bukkit-name: RED_SANDSTONE
+    value: -4
+  Chiseled Red Sandstone:
+    bukkit-name: RED_SANDSTONE
+    data: 1
+    value: -4
+  Smooth Red Sandstone:
+    bukkit-name: RED_SANDSTONE
+    data: 2
+    value: -4
+  Red Sandstone Stairs:
+    bukkit-name: RED_SANDSTONE_STAIRS
+    value: -3
+  Red Sandstone Slab:
+    bukkit-name: STONE_SLAB2
+    value: -9
+  Spruce Fence Gate:
+    bukkit-name: SPRUCE_FENCE_GATE
+    value: -171
+  Birch Fence Gate:
+    bukkit-name: BIRCH_FENCE_GATE
+    value: -171
+  Jungle Fence Gate:
+    bukkit-name: JUNGLE_FENCE_GATE
+    value: -171
+  Dark Oak Fence Gate:
+    bukkit-name: DARK_OAK_FENCE_GATE
+    value: -171
+  Acacia Fence Gate:
+    bukkit-name: ACACIA_FENCE_GATE
+    value: -171
+  Spruce Fence:
+    bukkit-name: SPRUCE_FENCE
+    value: -26
+  Birch Fence:
+    bukkit-name: BIRCH_FENCE
+    value: -26
+  Jungle Fence:
+    bukkit-name: JUNGLE_FENCE
+    value: -26
+  Dark Oak Fence:
+    bukkit-name: DARK_OAK_FENCE
+    value: -26
+  Acacia Fence:
+    bukkit-name: ACACIA_FENCE
+    value: -26
+  Iron Shovel:
+    bukkit-name: IRON_SPADE
+    value: -7
+  Iron Pickaxe:
+    bukkit-name: IRON_PICKAXE
+    value: -3
+  Iron Axe:
+    bukkit-name: IRON_AXE
+    value: -3
+  Flint and Steel:
+    bukkit-name: FLINT_AND_STEEL
+    value: -5
+  Apple:
+    bukkit-name: APPLE
+    value: 1
+  Bow:
+    bukkit-name: BOW
+    value: -51
+  Arrow:
+    bukkit-name: ARROW
+    value: -43
+  Coal:
+    bukkit-name: COAL
+    value: -38
+  Charcoal:
+    bukkit-name: COAL
+    data: 1
+    value: -51
+  Diamond:
+    bukkit-name: DIAMOND
+    value: 8
+  Iron Ingot:
+    bukkit-name: IRON_INGOT
+    value: -8
+  Gold Ingot:
+    bukkit-name: GOLD_INGOT
+    value: -2
+  Iron Sword:
+    bukkit-name: IRON_SWORD
+    value: -4
+  Wooden Sword:
+    bukkit-name: WOOD_SWORD
+    value: -64
+  Wooden Shovel:
+    bukkit-name: WOOD_SPADE
+    value: -102
+  Wooden Pickaxe:
+    bukkit-name: WOOD_PICKAXE
+    value: -43
+  Wooden Axe:
+    bukkit-name: WOOD_AXE
+    value: -43
+  Stone Sword:
+    bukkit-name: STONE_SWORD
+    value: -43
+  Stone Shovel:
+    bukkit-name: STONE_SPADE
+    value: -51
+  Stone Pickaxe:
+    bukkit-name: STONE_PICKAXE
+    value: -43
+  Stone Axe:
+    bukkit-name: STONE_AXE
+    value: -26
+  Diamond Sword:
+    bukkit-name: DIAMOND_SWORD
+    value: 1
+  Diamond Shovel:
+    bukkit-name: DIAMOND_SPADE
+    value: 8
+  Diamond Pickaxe:
+    bukkit-name: DIAMOND_PICKAXE
+    value: 24
+  Diamond Axe:
+    bukkit-name: DIAMOND_AXE
+    value: 24
+  Stick:
+    bukkit-name: STICK
+    value: -256
+  Bowl:
+    bukkit-name: BOWL
+    value: 256
+  Mushroom Stew:
+    bukkit-name: MUSHROOM_SOUP
+    value: -26
+  Golden Sword:
+    bukkit-name: GOLD_SWORD
+    value: 1
+  Golden Shovel:
+    bukkit-name: GOLD_SPADE
+    value: -2
+  Golden Pickaxe:
+    bukkit-name: GOLD_PICKAXE
+    value: 2
+  Golden Axe:
+    bukkit-name: GOLD_AXE
+    value: 2
+  String:
+    bukkit-name: STRING
+    value: -256
+  Feather:
+    bukkit-name: FEATHER
+    value: -85
+  Gunpowder:
+    bukkit-name: SULPHUR
+    value: -9
+  Wooden Hoe:
+    bukkit-name: WOOD_HOE
+    value: -128
+  Stone Hoe:
+    bukkit-name: STONE_HOE
+    value: -64
+  Iron Hoe:
+    bukkit-name: IRON_HOE
+    value: -4
+  Diamond Hoe:
+    bukkit-name: DIAMOND_HOE
+    value: 16
+  Golden Hoe:
+    bukkit-name: GOLD_HOE
+    value: 1
+  Seeds:
+    bukkit-name: SEEDS
+    aliases:
+    - wheet_seeds
+    value: -128
+  Wheat:
+    bukkit-name: WHEAT
+    value: -51
+  Bread:
+    bukkit-name: BREAD
+    value: -16
+  Leather Cap:
+    bukkit-name: LEATHER_HELMET
+    value: -5
+  Leather Tunic:
+    bukkit-name: LEATHER_CHESTPLATE
+    value: -3
+  Leather Pants:
+    bukkit-name: LEATHER_LEGGINGS
+    value: -4
+  Leather Boots:
+    bukkit-name: LEATHER_BOOTS
+    value: -6
+  Chain Helmet:
+    bukkit-name: CHAINMAIL_HELMET
+    value: 20
+  Chain Chestplate:
+    bukkit-name: CHAINMAIL_CHESTPLATE
+    value: 31
+  Chain Leggings:
+    bukkit-name: CHAINMAIL_LEGGINGS
+    value: 27
+  Chain Boots:
+    bukkit-name: CHAINMAIL_BOOTS
+    value: 16
+  Iron Helmet:
+    bukkit-name: IRON_HELMET
+    value: -2
+  Iron Chestplate:
+    bukkit-name: IRON_CHESTPLATE
+    value: 1
+  Iron Leggings:
+    bukkit-name: IRON_LEGGINGS
+    value: 1
+  Iron Boots:
+    bukkit-name: IRON_BOOTS
+    value: -2
+  Diamond Helmet:
+    bukkit-name: DIAMOND_HELMET
+    value: 39
+  Diamond Chestplate:
+    bukkit-name: DIAMOND_CHESTPLATE
+    value: 63
+  Diamond Leggings:
+    bukkit-name: DIAMOND_LEGGINGS
+    value: 55
+  Diamond Boots:
+    bukkit-name: DIAMOND_BOOTS
+    value: 31
+  Golden Helmet:
+    bukkit-name: GOLD_HELMET
+    value: 3
+  Golden Chestplate:
+    bukkit-name: GOLD_CHESTPLATE
+    value: 4
+  Golden Leggings:
+    bukkit-name: GOLD_LEGGINGS
+    value: 4
+  Golden Boots:
+    bukkit-name: GOLD_BOOTS
+    value: 2
+  Flint:
+    bukkit-name: FLINT
+    value: -32
+  Raw Porkchop:
+    bukkit-name: PORK
+    aliases:
+    - porkchop
+    value: -9
+  Cooked Porkchop:
+    bukkit-name: GRILLED_PORK
+    value: -6
+  Painting:
+    bukkit-name: PAINTING
+    value: -32
+  Golden Apple:
+    bukkit-name: GOLDEN_APPLE
+    value: 1
+  Enchanted Golden Apple:
+    bukkit-name: GOLDEN_APPLE
+    data: 1
+    value: 38
+  Sign:
+    bukkit-name: SIGN
+    value: -37
+  Oak Door:
+    bukkit-name: WOOD_DOOR
+    aliases:
+    - wooden_door
+    value: -43
+  Bucket:
+    bukkit-name: BUCKET
+    value: -3
+  Water Bucket:
+    bukkit-name: WATER_BUCKET
+    value: -2
+  Lava Bucket:
+    bukkit-name: LAVA_BUCKET
+    value: 1
+  Minecart:
+    bukkit-name: MINECART
+    value: -2
+  Saddle:
+    bukkit-name: SADDLE
+    value: 8
+  Iron Door:
+    bukkit-name: IRON_DOOR
+    value: 1
+  Redstone:
+    bukkit-name: REDSTONE
+    value: -38
+  Snowball:
+    bukkit-name: SNOW_BALL
+    value: -102
+  Boat:
+    bukkit-name: BOAT
+    value: -43
+  Leather:
+    bukkit-name: LEATHER
+    value: -26
+  Milk:
+    bukkit-name: MILK_BUCKET
+    value: -2
+  Brick:
+    bukkit-name: CLAY_BRICK
+    value: -26
+  Clay Ball:
+    bukkit-name: CLAY_BALL
+    value: -51
+  Sugar Cane:
+    bukkit-name: SUGAR_CANE
+    aliases:
+    - reeds
+    value: -51
+  Paper:
+    bukkit-name: PAPER
+    value: -51
+  Book:
+    bukkit-name: BOOK
+    value: -17
+  Slimeball:
+    bukkit-name: SLIME_BALL
+    value: -5
+  Minecart with Chest:
+    bukkit-name: STORAGE_MINECART
+    aliases:
+    - chest_minecart
+    value: 1
+  Minecart with Furnace:
+    bukkit-name: POWERED_MINECART
+    aliases:
+    - furnace_minecart
+    value: 1
+  Egg:
+    bukkit-name: EGG
+    value: -128
+  Compass:
+    bukkit-name: COMPASS
+    value: -2
+  Fishing Rod:
+    bukkit-name: FISHING_ROD
+    value: -85
+  Clock:
+    bukkit-name: WATCH
+    value: 2
+  Glowstone Dust:
+    bukkit-name: GLOWSTONE_DUST
+    value: -16
+  Raw Fish:
+    bukkit-name: RAW_FISH
+    aliases:
+    - fish
+    value: -10
+  Raw Salmon:
+    bukkit-name: RAW_FISH
+    data: 1
+    aliases:
+    - fish:1
+    value: -3
+  Clownfish:
+    bukkit-name: RAW_FISH
+    data: 2
+    aliases:
+    - fish:2
+    value: 2
+  Pufferfish:
+    bukkit-name: RAW_FISH
+    data: 3
+    aliases:
+    - fish:3
+    value: -3
+  Cooked Fish:
+    bukkit-name: COOKED_FISH
+    value: -8
+  Cooked Salmon:
+    bukkit-name: COOKED_FISH
+    data: 1
+    value: -2
+  Ink Sac:
+    bukkit-name: INK_SACK
+    aliases:
+    - dye
+    value: -17
+  Rose Red:
+    bukkit-name: INK_SACK
+    data: -51
+    aliases:
+    - dye:1
+    value: 1
+  Cactus Green:
+    bukkit-name: INK_SACK
+    data: 2
+    aliases:
+    - dye:2
+    value: -21
+  Cocoa Beans:
+    bukkit-name: INK_SACK
+    data: 3
+    aliases:
+    - dye:3
+    value: -43
+  Lapis Lazuli:
+    bukkit-name: INK_SACK
+    data: 4
+    aliases:
+    - dye:4
+    value: -10
+  Purple Dye:
+    bukkit-name: INK_SACK
+    data: 5
+    aliases:
+    - dye:5
+    value: -4
+  Cyan Dye:
+    bukkit-name: INK_SACK
+    data: 6
+    aliases:
+    - dye:6
+    value: -4
+  Light Gray Dye:
+    bukkit-name: INK_SACK
+    data: 7
+    aliases:
+    - dye:7
+    value: -10
+  Gray Dye:
+    bukkit-name: INK_SACK
+    data: 8
+    aliases:
+    - dye:8
+    value: -13
+  Pink Dye:
+    bukkit-name: INK_SACK
+    data: 9
+    aliases:
+    - dye:9
+    value: -13
+  Lime Dye:
+    bukkit-name: INK_SACK
+    data: 10
+    aliases:
+    - dye:10
+    value: -13
+  Dandelion Yellow:
+    bukkit-name: INK_SACK
+    data: 11
+    aliases:
+    - dye:11
+    value: -17
+  Light Blue Dye:
+    bukkit-name: INK_SACK
+    data: 12
+    aliases:
+    - dye:12
+    value: -4
+  Magenta Dye:
+    bukkit-name: INK_SACK
+    data: 13
+    aliases:
+    - dye:13
+    value: -3
+  Orange Dye:
+    bukkit-name: INK_SACK
+    data: 14
+    aliases:
+    - dye:14
+    value: -13
+  Bone Meal:
+    bukkit-name: INK_SACK
+    data: 15
+    aliases:
+    - dye:15
+    value: -64
+  Bone:
+    bukkit-name: BONE
+    value: -26
+  Sugar:
+    bukkit-name: SUGAR
+    value: -51
+  Cake:
+    bukkit-name: CAKE
+    value: -6
+  Bed:
+    bukkit-name: BED
+    value: -13
+  Redstone Repeater:
+    bukkit-name: DIODE
+    value: -7
+  Cookie:
+    bukkit-name: COOKIE
+    value: -128
+  Shears:
+    bukkit-name: SHEARS
+    value: -4
+  Melon:
+    bukkit-name: MELON
+    value: -26
+  Pumpkin Seeds:
+    bukkit-name: PUMPKIN_SEEDS
+    value: -51
+  Melon Seeds:
+    bukkit-name: MELON_SEEDS
+    value: -9
+  Raw Beef:
+    bukkit-name: RAW_BEEF
+    aliases:
+    - beef
+    value: -9
+  Steak:
+    bukkit-name: COOKED_BEEF
+    value: -6
+  Raw Chicken:
+    bukkit-name: RAW_CHICKEN
+    aliases:
+    - chicken
+    value: -10
+  Cooked Chicken:
+    bukkit-name: COOKED_CHICKEN
+    value: -8
+  Rotten Flesh:
+    bukkit-name: ROTTEN_FLESH
+    value: -256
+  Ender Pearl:
+    bukkit-name: ENDER_PEARL
+    value: 2
+  Blaze Rod:
+    bukkit-name: BLAZE_ROD
+    value: 1
+  Ghast Tear:
+    bukkit-name: GHAST_TEAR
+    value: 2
+  Gold Nugget:
+    bukkit-name: GOLD_NUGGET
+    value: -18
+  Nether Wart:
+    bukkit-name: NETHER_STALK
+    value: -13
+  Glass Bottle:
+    bukkit-name: GLASS_BOTTLE
+    value: -17
+  Spider Eye:
+    bukkit-name: SPIDER_EYE
+    value: -17
+  Fermented Spider Eye:
+    bukkit-name: FERMENTED_SPIDER_EYE
+    value: -6
+  Blaze Powder:
+    bukkit-name: BLAZE_POWDER
+    value: -2
+  Magma Cream:
+    bukkit-name: MAGMA_CREAM
+    value: -2
+  Brewing Stand:
+    bukkit-name: BREWING_STAND_ITEM
+    value: 1
+  Cauldron:
+    bukkit-name: CAULDRON_ITEM
+    value: 1
+  Eye of Ender:
+    bukkit-name: EYE_OF_ENDER
+    aliases:
+    - ender_eye
+    value: 2
+  Glistering Melon:
+    bukkit-name: SPECKLED_MELON
+    value: -9
+  Spawn Creeper:
+    bukkit-name: MONSTER_EGG
+    data: 50
+    aliases:
+    - spawn_egg
+    - spawn_egg:50
+    value: 1
+  Spawn Skeleton:
+    bukkit-name: MONSTER_EGG
+    data: 51
+    aliases:
+    - spawn_egg:51
+    value: 1
+  Spawn Spider:
+    bukkit-name: MONSTER_EGG
+    data: 52
+    aliases:
+    - spawn_egg:52
+    value: 1
+  Spawn Zombie:
+    bukkit-name: MONSTER_EGG
+    data: 53
+    aliases:
+    - spawn_egg:53
+    value: 1
+  Spawn Slime:
+    bukkit-name: MONSTER_EGG
+    data: 54
+    aliases:
+    - spawn_egg:54
+    value: 1
+  Spawn Ghast:
+    bukkit-name: MONSTER_EGG
+    data: 55
+    aliases:
+    - spawn_egg:55
+    value: 1
+  Spawn Zombie Pigman:
+    bukkit-name: MONSTER_EGG
+    data: 56
+    aliases:
+    - spawn_egg:56
+    value: 1
+  Spawn Enderman:
+    bukkit-name: MONSTER_EGG
+    data: 58
+    aliases:
+    - spawn_egg:58
+    value: 1
+  Spawn Cave Spider:
+    bukkit-name: MONSTER_EGG
+    data: 59
+    aliases:
+    - spawn_egg:59
+    value: 1
+  Spawn Silverfish:
+    bukkit-name: MONSTER_EGG
+    data: 60
+    aliases:
+    - spawn_egg:60
+    value: 1
+  Spawn Blaze:
+    bukkit-name: MONSTER_EGG
+    data: 61
+    aliases:
+    - spawn_egg:61
+    value: 1
+  Spawn Magma Cube:
+    bukkit-name: MONSTER_EGG
+    data: 62
+    aliases:
+    - spawn_egg:62
+    value: 1
+  Spawn Bat:
+    bukkit-name: MONSTER_EGG
+    data: 65
+    aliases:
+    - spawn_egg:65
+    value: 1
+  Spawn Witch:
+    bukkit-name: MONSTER_EGG
+    data: 66
+    aliases:
+    - spawn_egg:66
+    value: 1
+  Spawn Endermite:
+    bukkit-name: MONSTER_EGG
+    data: 67
+    aliases:
+    - spawn_egg:67
+    value: 1
+  Spawn Guardian:
+    bukkit-name: MONSTER_EGG
+    data: 68
+    aliases:
+    - spawn_egg:68
+    value: 1
+  Spawn Pig:
+    bukkit-name: MONSTER_EGG
+    data: 90
+    aliases:
+    - spawn_egg:90
+    value: 1
+  Spawn Sheep:
+    bukkit-name: MONSTER_EGG
+    data: 91
+    aliases:
+    - spawn_egg:91
+    value: 1
+  Spawn Cow:
+    bukkit-name: MONSTER_EGG
+    data: 92
+    aliases:
+    - spawn_egg:92
+    value: 1
+  Spawn Chicken:
+    bukkit-name: MONSTER_EGG
+    data: 93
+    aliases:
+    - spawn_egg:93
+    value: 1
+  Spawn Squid:
+    bukkit-name: MONSTER_EGG
+    data: 94
+    aliases:
+    - spawn_egg:94
+    value: 1
+  Spawn Wolf:
+    bukkit-name: MONSTER_EGG
+    data: 95
+    aliases:
+    - spawn_egg:95
+    value: 1
+  Spawn Mooshroom:
+    bukkit-name: MONSTER_EGG
+    data: 96
+    aliases:
+    - spawn_egg:96
+    value: 1
+  Spawn Ocelot:
+    bukkit-name: MONSTER_EGG
+    data: 98
+    aliases:
+    - spawn_egg:98
+    value: 1
+  Spawn Horse:
+    bukkit-name: MONSTER_EGG
+    data: 100
+    aliases:
+    - spawn_egg:100
+    value: 1
+  Spawn Rabbit:
+    bukkit-name: MONSTER_EGG
+    data: 101
+    aliases:
+    - spawn_egg:101
+    value: 1
+  Spawn Villager:
+    bukkit-name: MONSTER_EGG
+    data: 120
+    aliases:
+    - spawn_egg:120
+    value: 1
+  Bottle o' Enchanting:
+    bukkit-name: EXP_BOTTLE
+    aliases:
+    - experience bottle
+    value: 1
+  Fire Charge:
+    bukkit-name: FIREBALL
+    value: -2
+  Book and Quill:
+    bukkit-name: BOOK_AND_QUILL
+    aliases:
+    - writable_book
+    value: -8
+  Emerald:
+    bukkit-name: EMERALD
+    static: true
+    value: 1
+  Item Frame:
+    bukkit-name: ITEM_FRAME
+    value: -14
+  Flower Pot:
+    bukkit-name: FLOWER_POT_ITEM
+    value: -9
+  Carrot:
+    bukkit-name: CARROT_ITEM
+    value: -13
+  Potato:
+    bukkit-name: POTATO_ITEM
+    value: -13
+  Baked Potato:
+    bukkit-name: BAKED_POTATO
+    value: -11
+  Poisonous Potato:
+    bukkit-name: POISONOUS_POTATO
+    value: -11
+  Empty Map:
+    bukkit-name: EMPTY_MAP
+    value: 1
+  Golden Carrot:
+    bukkit-name: GOLDEN_CARROT
+    value: -2
+  Skeleton Skull:
+    bukkit-name: SKULL_ITEM
+    aliases:
+    - skull
+    value: 39
+  Wither Skeleton Skull:
+    bukkit-name: SKULL_ITEM
+    data: 1
+    aliases:
+    - skull:1
+    value: 18
+  Zombie Head:
+    bukkit-name: SKULL_ITEM
+    data: 2
+    aliases:
+    - skull:2
+    value: 39
+  Head:
+    bukkit-name: SKULL_ITEM
+    data: 3
+    aliases:
+    - skull:3
+    value: 39
+  Creeper Head:
+    bukkit-name: SKULL_ITEM
+    data: 4
+    aliases:
+    - skull:4
+    value: 39
+  Carrot on a Stick:
+    bukkit-name: CARROT_STICK
+    value: -11
+  Nether Star:
+    bukkit-name: NETHER_STAR
+    value: 281
+  Pumpkin Pie:
+    bukkit-name: PUMPKIN_PIE
+    value: -9
+  Redstone Comparator:
+    bukkit-name: REDSTONE_COMPARATOR
+    value: -5
+  Nether Brick Item:
+    bukkit-name: NETHER_BRICK_ITEM
+    value: -51
+  Nether Quartz:
+    bukkit-name: QUARTZ
+    value: -13
+  Minecart with TNT:
+    bukkit-name: EXPLOSIVE_MINECART
+    aliases:
+    - tnt_minecart
+    value: 2
+  Minecart with Hopper:
+    bukkit-name: HOPPER_MINECART
+    value: 1
+  Prismarine Shard:
+    bukkit-name: PRISMARINE_SHARD
+    value: -2
+  Prismarine Crystals:
+    bukkit-name: PRISMARINE_CRYSTALS
+    value: 3
+  Raw Rabbit:
+    bukkit-name: RABBIT
+    value: -9
+  Cooked Rabbit:
+    bukkit-name: COOKED_RABBIT
+    value: -6
+  Rabbit Stew:
+    bukkit-name: RABBIT_STEW
+    value: -3
+  Rabbit's Foot:
+    bukkit-name: RABBIT_FOOT
+    value: 1
+  Rabbit Hide:
+    bukkit-name: RABBIT_HIDE
+    value: -102
+  Armor Stand:
+    bukkit-name: ARMOR_STAND
+    value: -57
+  Iron Horse Armor:
+    bukkit-name: IRON_BARDING
+    value: 31
+  Golden Horse Armor:
+    bukkit-name: GOLD_BARDING
+    value: 59
+  Diamond Horse Armor:
+    bukkit-name: DIAMOND_BARDING
+    value: 78
+  Lead:
+    bukkit-name: LEASH
+    value: -9
+  Name Tag:
+    bukkit-name: NAME_TAG
+    value: 39
+  Raw Mutton:
+    bukkit-name: MUTTON
+    value: -9
+  Cooked Mutton:
+    bukkit-name: COOKED_MUTTON
+    value: -6
+  Banner:
+    bukkit-name: BANNER
+    value: -10
+  Spruce Door:
+    bukkit-name: SPRUCE_DOOR_ITEM
+    value: -43
+  Birch Door:
+    bukkit-name: BIRCH_DOOR_ITEM
+    value: -43
+  Jungle Door:
+    bukkit-name: JUNGLE_DOOR_ITEM
+    value: -43
+  Acacia Door:
+    bukkit-name: ACACIA_DOOR_ITEM
+    value: -43
+  Dark Oak Door:
+    bukkit-name: DARK_OAK_DOOR_ITEM
+    value: -43
+  13 Disc:
+    bukkit-name: GOLD_RECORD
+    aliases:
+    - record_13
+    value: 1
+  Cat Disc:
+    bukkit-name: GREEN_RECORD
+    aliases:
+    - record_cat
+    value: 1
+  Blocks Disc:
+    bukkit-name: RECORD_3
+    aliases:
+    - record_blocks
+    value: 1
+  Chirp Disc:
+    bukkit-name: RECORD_4
+    aliases:
+    - record_chirp
+    value: 1
+  Far Disc:
+    bukkit-name: RECORD_5
+    aliases:
+    - record_far
+    value: 1
+  Mall Disc:
+    bukkit-name: RECORD_6
+    aliases:
+    - record_mall
+    value: 1
+  Mellohi Disc:
+    bukkit-name: RECORD_7
+    aliases:
+    - record_mellohi
+    value: 1
+  Stal Disc:
+    bukkit-name: RECORD_8
+    aliases:
+    - record_stal
+    value: 1
+  Strad Disc:
+    bukkit-name: RECORD_9
+    aliases:
+    - record_strad
+    value: 1
+  Ward Disc:
+    bukkit-name: RECORD_10
+    aliases:
+    - record_ward
+    value: 1
+  11 Disc:
+    bukkit-name: RECORD_11
+    value: 1
+  Wait Disc:
+    bukkit-name: RECORD_12
+    aliases:
+    - record_wait
+    value: 1

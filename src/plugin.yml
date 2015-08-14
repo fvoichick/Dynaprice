@@ -1,0 +1,28 @@
+name: Dynaprice
+main: com.finnv3.dynaprice.Dynaprice
+version: 0.1
+permissions:
+  dynaprice.value:
+    description: Allows players to check the value of an item with /value
+  dynaprice.buy:
+    description: Allows players to buy items from the server shop with /buy
+    default: true
+  dynaprice.sell:
+    description: Allows players to sell items from the server shop with /sell
+    default: true
+commands:
+  buy:
+    description: Buy an item.
+    usage: /buy [item name] [amount]
+    permission: dynaprice.buy
+    permission-message: You don't have permission to buy.
+  sell:
+    description: Sell an item.
+    usage: /sell [item name] [amount | all]
+    permission: dynaprice.sell
+    permission-message: You don't have permission to sell.
+  value:
+    description: Get the value of one or more items.
+    usage: /value [item name] [amount | all]
+    permission: dynaprice.value
+    permission-message: You don't have permission to see values.
