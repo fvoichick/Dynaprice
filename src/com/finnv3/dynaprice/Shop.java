@@ -69,6 +69,10 @@ public final class Shop implements CommandExecutor {
 				return itemName;
 			}
 		}
+		if (plugin.getConfig().getString("currency.bukkit-name").equals(material.getItemType().toString())
+				&& plugin.getConfig().getInt("currency.data") == material.getData()) {
+			return plugin.getConfig().getString("currency.name");
+		}
 		return null;
 	}
 
