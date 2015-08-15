@@ -1,6 +1,6 @@
 name: Dynaprice
 main: com.finnv3.dynaprice.Dynaprice
-version: 0.1.1
+version: 0.2
 permissions:
   dynaprice.value:
     description: Allows players to check the value of an item with /value

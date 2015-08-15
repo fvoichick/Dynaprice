@@ -54,6 +54,9 @@ public final class Dynaprice extends JavaPlugin {
 		if (!config.isSet("buy-sell-difference") || !config.isInt("buy-sell-difference")) {
 			config.set("buy-sell-difference", 1);
 		}
+		if (!config.isSet("price-change") || !config.isInt("price-change")) {
+			config.set("price-change", 1);
+		}
 		if (!config.isSet("currency.bukkit-name") || !config.isString("currency.bukkit-name")) {
 			config.set("currency.bukkit-name", "EMERALD");
 		}

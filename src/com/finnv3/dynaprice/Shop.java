@@ -116,6 +116,7 @@ public final class Shop implements CommandExecutor {
 		boolean buyCommand = command.getName().equalsIgnoreCase("buy");
 		if (!valueCommand && !(sender instanceof Player)) {
 			sender.sendMessage(ChatColor.RED + "You must be a player to buy or sell");
+			return true;
 		}
 		String itemName;
 		int numberOfItems = 1;
@@ -139,7 +140,7 @@ public final class Shop implements CommandExecutor {
 			if (sender instanceof Player) {
 				Player player = (Player) sender;
 				ItemStack itemInHand = player.getItemInHand();
-				if (itemInHand != null) {
+				if (itemInHand.getAmount() > 0) {
 					if (itemInHand.getType().getMaxDurability() > 0 && itemInHand.getDurability() > 0 && (valueCommand || buyCommand)) {
 						itemName = nameFromMaterial(new MaterialData(itemInHand.getType()));
 					} else {

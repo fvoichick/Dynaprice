@@ -163,11 +163,12 @@ public final class Transaction {
 	}
 
 	private int changeValue(int oldValue) {
+		int priceChange = plugin.getConfig().getInt("price-change");
 		if (buy) {
 			if (oldValue >= 1) {
-				return oldValue + 1;
+				return oldValue + priceChange;
 			}
-			oldValue++;
+			oldValue += priceChange;
 			if (oldValue > -2) {
 				return oldValue + 2;
 			} else {
@@ -175,9 +176,9 @@ public final class Transaction {
 			}
 		} else {
 			if (oldValue <= -2) {
-				return oldValue - 1;
+				return oldValue - priceChange;
 			}
-			oldValue--;
+			oldValue -= priceChange;
 			if (oldValue < 1) {
 				return oldValue - 2;
 			} else {

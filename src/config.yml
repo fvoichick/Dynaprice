@@ -1,6 +1,7 @@
 auto-update: true
 
 buy-sell-difference: 1
+price-change: 1
 
 currency:
   name: Emerald
