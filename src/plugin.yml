@@ -18,11 +18,11 @@ commands:
     permission-message: You don't have permission to buy.
   sell:
     description: Sell an item.
-    usage: /sell [item name] [amount | all]
+    usage: /sell [item name] [amount]
     permission: dynaprice.sell
     permission-message: You don't have permission to sell.
   value:
     description: Get the value of one or more items.
-    usage: /value [item name] [amount | all]
+    usage: /value [item name] [amount]
     permission: dynaprice.value
     permission-message: You don't have permission to see values.
