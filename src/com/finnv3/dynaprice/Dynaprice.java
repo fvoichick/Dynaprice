@@ -91,5 +91,5 @@ public final class Dynaprice extends JavaPlugin {
 		return true;
 	}
 	
-	private static final int id = -1;
+	private static final int id = 94275;
 }
