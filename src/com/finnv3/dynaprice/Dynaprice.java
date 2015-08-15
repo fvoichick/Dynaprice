@@ -51,12 +51,22 @@ public final class Dynaprice extends JavaPlugin {
 		if (!config.isSet("auto-update") || !config.isBoolean("auto-update")) {
 			config.set("auto-update", true);
 		}
+
 		if (!config.isSet("buy-sell-difference") || !config.isInt("buy-sell-difference")) {
 			config.set("buy-sell-difference", 1);
 		}
 		if (!config.isSet("price-change") || !config.isInt("price-change")) {
 			config.set("price-change", 1);
 		}
+		int buySellDifference = config.getInt("buy-sell-difference");
+		int priceChange = config.getInt("price-change");
+		if (priceChange > buySellDifference) {
+			getLogger().warning(
+					"Your price-change value (" + priceChange + ") is greater than your buy-sell-difference value ("
+							+ buySellDifference + "), increasing buy-sell-difference to " + priceChange);
+			config.set("buy-sell-difference", priceChange);
+		}
+
 		if (!config.isSet("currency.bukkit-name") || !config.isString("currency.bukkit-name")) {
 			config.set("currency.bukkit-name", "EMERALD");
 		}
@@ -67,8 +77,7 @@ public final class Dynaprice extends JavaPlugin {
 		if (!config.isSet("currency.name") || !config.isString("currency.name")) {
 			config.set("currency.name", WordUtils.capitalizeFully(config.getString("currency.bukkit-name")));
 		}
-		
-		
+
 		ConfigurationSection itemsConfig = config.getConfigurationSection("items");
 		if (itemsConfig == null || itemsConfig.getKeys(false).isEmpty()) {
 			getLogger().info("No items are in the config, adding defaults");
@@ -76,10 +85,10 @@ public final class Dynaprice extends JavaPlugin {
 		} else {
 			for (String itemName : itemsConfig.getKeys(false)) {
 				ConfigurationSection itemSection = itemsConfig.getConfigurationSection(itemName);
-				if (!itemSection.isSet("bukkit-name")
-						|| !itemSection.isString("bukkit-name")
+				if (!itemSection.isSet("bukkit-name") || !itemSection.isString("bukkit-name")
 						|| Material.valueOf(itemSection.getString("bukkit-name")) == null) {
-					getLogger().severe("Invalid " + itemName + " bukkit-name in config: " + itemSection.get("bukkit-name", null));
+					getLogger().severe(
+							"Invalid " + itemName + " bukkit-name in config: " + itemSection.get("bukkit-name", null));
 					return false;
 				} else {
 					if (!itemSection.isSet("value") || !itemSection.isInt("value")) {
@@ -93,6 +102,6 @@ public final class Dynaprice extends JavaPlugin {
 		saveConfig();
 		return true;
 	}
-	
+
 	private static final int id = 94275;
 }
